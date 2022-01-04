@@ -40,7 +40,7 @@
             this.btnDisplayGreeting.TabIndex = 0;
             this.btnDisplayGreeting.Text = "Display Greeting";
             this.btnDisplayGreeting.UseVisualStyleBackColor = true;
-            this.btnDisplayGreeting.Click += new System.EventHandler(this.btnDisplayGreeting_Click);
+            this.btnDisplayGreeting.Click += new System.EventHandler(this.BtnDisplayGreeting_Click);
             // 
             // txtName
             // 
