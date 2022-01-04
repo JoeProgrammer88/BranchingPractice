@@ -1,3 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
 namespace BranchingPractice
 {
     public partial class Form1 : Form
@@ -5,6 +15,11 @@ namespace BranchingPractice
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void BtnDisplayGreeting_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"Hello {txtName.Text}");
         }
     }
 }
